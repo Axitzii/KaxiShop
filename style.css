@@ -36,6 +36,7 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    margin-top: -20px; /* Move everything up */
 }
 
 .container{
@@ -49,6 +50,7 @@ body{
     gap: 8px;
     border-radius: 12px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: -20px; /* Adjusting margin */
 }
 
 .container header{
@@ -184,7 +186,6 @@ body{
     padding: 8px 12px;
     white-space: nowrap;
     transition: all 0.3s ease;
-    font-size:15.9px
 }
 
 .container .tabs-container .tabs li a:hover,
