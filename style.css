@@ -30,7 +30,7 @@ a{
 
 body{
     background:#151f28    ;
-    color: #151f28;
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +152,7 @@ body{
 }
 
 .container .social-links a:hover i{
-    color: #689cfc;
+    color: #bfd5ff;
 }
 
 .container .tabs-container{
@@ -285,7 +285,7 @@ body{
 }
 
 .container button{
-    background-color:#689cfc;
+    background-color: rgb(138, 149, 255);
     color: #fff;
     padding: 10px 16px;
     border-radius: 8px;
@@ -298,5 +298,5 @@ body{
 }
 
 .container button:hover{
-    background-color: #98bcfc;
+    background-color: #689dff;
 }
